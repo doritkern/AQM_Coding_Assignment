@@ -33,5 +33,5 @@ if result > 0:
 df_full = pd.concat([df1, df2, df3], axis=0)
 print(df_full)
 
-#Save combined data frame as xml
+#Save combined data frame as xlsx
 df_full.to_excel("Micro_Data_all.xlsx", sheet_name='Data')
